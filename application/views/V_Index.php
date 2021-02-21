@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
 	<script type="text/javascript" src="<?php echo base_url('assets/jquery/jquery-3.3.1.min.js'); ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css') ?>">
 </head>
 <body style="margin: 20px;">
 	<div class="panel panel-primary">
@@ -116,7 +117,7 @@
 
 	<footer class="footer">
 	  <div class="container" style="text-align:center;">
-	  	<hr/>
+	  <hr class="l-1">
         <span>Andhi Puspianto - <?php echo date('D, M, Y'); ?></span>
       </div>
     </footer>

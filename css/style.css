@@ -1,0 +1,26 @@
+body {
+	background-color: #eaf3ff;
+}
+
+footer {
+	margin-top: 6.5vw;
+	width: 100%;
+}
+footer .l-1 {
+	border: 2.5px solid #5388be44;
+	border-radius: 6px;
+	width: 40%;
+}
+footer .container {
+	font-weight: 600;
+}
+footer .container hr {
+	color: black;
+}
+
+@media (max-width: 768px) {
+	.panel-heading b {
+		margin-left: 80px;
+		margin-bottom: 12px;
+	}
+}
