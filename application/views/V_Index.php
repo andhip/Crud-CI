@@ -125,7 +125,7 @@
 <script type="text/javascript">
 	$(document).ready(function(){
 		tampil_data();
-		//Menampilkan Data di tabel
+		//Menampilkan Data pada tabel
 		function tampil_data(){
 			$.ajax({
 				url: '<?php echo base_url(); ?>C_Index/ambilData',
@@ -155,7 +155,7 @@
 		//Hapus Data dengan konfirmasi
 		$("#tbl_data").on('click','.btn_hapus',function(){
 			var noinduk = $(this).attr('data-id');
-			var status = confirm('Yakin ingin menghapus?');
+			var status = confirm('Anda yakin ingin menghapusnya?');
 			if(status){
 				$.ajax({
 					url: '<?php echo base_url(); ?>C_Index/hapusData',
@@ -207,7 +207,7 @@
 			})
 		});
 
-		//Meng-Update Data
+		//Update Data Siswa
 		$("#btn_update_data").on('click',function(){
 			var noinduk = $('input[name="noinduk_edit"]').val();
 			var nama = $('input[name="nama_edit"]').val();
