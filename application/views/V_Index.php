@@ -10,7 +10,7 @@
 <body style="margin: 20px;">
 
 	<caption>
-	<h3 class="gt">Welcome back, <?php echo $this->session->userdata("nama"); ?>!</h3>
+	<h3 class="gt">Welcome back, <?php echo $this->session->userdata("name"); ?></h3>
 	</caption>
 
 	<div class="panel panel-primary">

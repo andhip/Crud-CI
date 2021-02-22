@@ -18,10 +18,10 @@
 		background-color: #fff;
 		border-radius:20px;
 		display: relative;
-		width:98%;
+		justify-content:center;
 		padding-top: 2rem;
 		padding-bottom:2rem;
-		box-shadow: 1px 9px 21px rgba(0, 0, 0, 0.155);
+		box-shadow: 1px 9px 21px rgba(0, 0, 0, 0.166);
 	}
 	hr{
 		border: 2px solid #eaf3ff;
