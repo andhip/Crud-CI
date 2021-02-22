@@ -8,10 +8,17 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css') ?>">
 </head>
 <body style="margin: 20px;">
+
+	<caption>
+	<h3 class="gt">Welcome back, <?php echo $this->session->userdata("nama"); ?>!</h3>
+	</caption>
+
 	<div class="panel panel-primary">
 		<div class="panel-heading">
 			<b class="col-md-10">CRUD Data Mahasiswa Baru</b>
-			<center><button data-toggle="modal" data-target="#addModal" class="btn btn-success">Tambah Data</button></center>
+			<center><button data-toggle="modal" data-target="#addModal" class="btn btn-success td">Tambah Data</button>
+			<button class="btn  s-o"><a href="<?php echo base_url('login/logout'); ?>">Logout</a></button></center>
+			
 		</div>
 		<div class="panel-body">
 			<div class="table-responsive">
@@ -114,6 +121,8 @@
 
 	  </div>
 	</div>
+
+
 
 	<footer class="footer">
 	  <div class="container" style="text-align:center;">
