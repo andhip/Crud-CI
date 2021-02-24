@@ -33,7 +33,7 @@
 <body>
 
 	<div class="container">
-		<center><h2>Menu Login</h2>
+		<center><h2>Login Administrator</h2>
 		<hr>
 		<form action="<?php echo base_url('login/aksi_login'); ?>" method="post">		
 			<table>

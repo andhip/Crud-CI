@@ -9,15 +9,26 @@
 </head>
 <body style="margin: 20px;">
 
-	<caption>
-	<h3 class="gt">Welcome back, <?php echo $this->session->userdata("name"); ?></h3>
-	</caption>
+	<div class="navbar">
+			<div class="col-md-12 justify-align-center">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="gt">Welcome back, <?php echo $this->session->userdata("name"); ?></h3>
+					</div>
+					<div class="col-md-6">
+						<button class="btn  btn-primary s-o"><a href="<?php echo base_url('login/logout'); ?>">Logout</a></button>
+					</div>
+				</div>
+			</div>
+	</div>
 
 	<div class="panel panel-primary">
 		<div class="panel-heading">
-			<b class="col-md-10">CRUD Data Mahasiswa Baru</b>
-			<center><button data-toggle="modal" data-target="#addModal" class="btn btn-success td">Tambah Data</button>
-			<button class="btn  s-o"><a href="<?php echo base_url('login/logout'); ?>">Logout</a></button></center>
+			<b class="col-md-10 ">CRUD Data Mahasiswa Baru</b>
+			<center>
+			<p></p>
+			<button data-toggle="modal" data-target="#addModal" class="btn btn-success td">Tambah Data</button>
+			<button class="btn  btn-default"> <a href="<?php echo base_url('index.php/order/export');?>">Export</a></button></center>
 			
 		</div>
 		<div class="panel-body">
