@@ -13,7 +13,7 @@
 			<div class="col-md-12 justify-align-center">
 				<div class="row">
 					<div class="col-md-6">
-						<h3 class="gt">Welcome back, <?php echo $this->session->userdata("name"); ?></h3>
+						<h3 class="gt">Welcome back! <?php echo $this->session->userdata("name"); ?></h3>
 					</div>
 					<div class="col-md-6">
 						<button class="btn  btn-primary s-o"><a href="<?php echo base_url('login/logout'); ?>">Logout</a></button>

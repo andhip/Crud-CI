@@ -11,11 +11,16 @@ class Order extends CI_Controller {
     public function export() {
         $orders = $this->order_model->get_all();
         $tanggal = date('d-m-Y');
- 
+		
+		// Setting halaman PDF
 		$pdf = new \TCPDF('l','mm','A4');
         $pdf->AddPage();
+		$pdf->Cell(10,7,'',0,1);
+		// Membuat string
         $pdf->SetFont('', 'B', 20);
-        $pdf->Cell(115, 0, "Laporan Order - ".$tanggal, 0, 1, 'L');
+        $pdf->Cell(270, 7, "Daftar Peserta Didik Baru Tahun Ajaran 2021/2022 ", 0, 1, 'C');
+		$pdf->SetFont('', '', 14);
+        $pdf->Cell(270, 7, "Sekolah Coding Jakarta ".$tanggal, 0, 1, 'C');
         $pdf->SetAutoPageBreak(true, 0);
  
         // Add Header
@@ -36,9 +41,9 @@ class Order extends CI_Controller {
  
     private function addRow($pdf, $no, $order) {
         $pdf->Cell(10, 8, $no, 1, 0, 'C');
-        $pdf->Cell(35, 8, $order['noinduk'], 1, 0, 'C');
+        $pdf->Cell(35, 8, $order['noinduk'], 1, 0);
         $pdf->Cell(55, 8, $order['nama'], 1, 0, '');
-		$pdf->Cell(100, 8, $order['alamat'], 1, 0, '');
+		$pdf->Cell(100, 8,$order['alamat'], 1, 0, '');
         $pdf->Cell(85, 8, $order['asalsekolah'], 1, 0, '');
     }
 }
