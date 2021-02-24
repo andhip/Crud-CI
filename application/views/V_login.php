@@ -20,7 +20,7 @@
 	}
 	
 	#hero .hero-container {
-		background: rgba(0, 0, 0, 0.220);
+		background: rgba(0, 0, 0, 0.240);
 		display: table-cell;
 		margin: 0;
 		padding: 0;

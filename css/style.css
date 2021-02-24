@@ -4,10 +4,7 @@ body {
 	background-color: #eaf3ff;
 	font-family: "Poppins", sans-serif !important;
 }
-caption {
-	margin-bottom: 3rem;
-	background-color: yellow;
-}
+
 .panel-heading {
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -15,7 +12,7 @@ caption {
 .gt {
 	font-size: 18px;
 	font-weight: 600;
-	color: rgb(10, 175, 74) !important;
+	color: rgba(124, 124, 124, 0.767) !important;
 	margin-top: 0.7rem;
 }
 .td:hover {

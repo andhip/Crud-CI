@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>CRUD | Data Siswa</title>
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
 	<script type="text/javascript" src="<?php echo base_url('assets/jquery/jquery-3.3.1.min.js'); ?>"></script>
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap/css/bootstrap.min.css'); ?>">
 	<script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/bootstrap.min.js'); ?>"></script>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('css/style.css') ?>">
 </head>
@@ -139,7 +139,7 @@
 	  <hr class="l-1">
         <span>Andhi Puspianto - <?php echo date('D, M, Y'); ?></span>
       </div>
-    </footer>
+    </footer>   
 
 </html>
 <script type="text/javascript">
