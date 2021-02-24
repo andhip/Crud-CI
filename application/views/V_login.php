@@ -43,9 +43,9 @@
 	}
 	.submit {
         align-items:center !important;
-        margin-top: 1.6rem;
+        margin-top: 1.1rem;
         color: black;
-        padding: 6px 52px;
+        padding: 6px 53px;
         text-align: center;
         text-decoration: none;
         border-radius: 6px;
@@ -95,6 +95,9 @@
 	</div>
     </div>
   </section><!-- End Hero -->
+  <script>
+  console.log("Author : Andhi Puspianto / 1803015240")
+  </script>
 	
 </body>
 </html>
