@@ -33,7 +33,7 @@ class Login extends CI_Controller{
 			redirect(base_url("admin"));
  
 		}else{
-			echo "<script>alert('Id anda tidak terdaftar atau password salah')</script>";
+			echo "<script>alert('Maaf Id atau password yang Anda masukan salah! Silahkan ulangi kembali')</script>";
 			
 		}
 	}
