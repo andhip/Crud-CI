@@ -7,13 +7,14 @@ class Order extends CI_Controller {
         parent::__construct();
         $this->load->model('order_model');
     }
- 
+	
+
     public function export() {
         $orders = $this->order_model->get_all();
         $tanggal = date('d-m-Y');
 		
 		// Setting halaman PDF
-		$pdf = new \TCPDF('l','mm','A4', true, 'UTF-8', false);
+		$pdf = new \TCPDF('l','mm','A4', true, 'UTF-8', false); 
         $pdf->AddPage();
 		$pdf->Cell(10,7,'',0,1);
 		// Membuat string
@@ -49,6 +50,3 @@ class Order extends CI_Controller {
 		}
    
 }
-
-
- 
