@@ -26,9 +26,8 @@
 		<div class="panel-heading">
 			<b class="col-md-10 ">CRUD Data Mahasiswa Baru</b>
 			<center>
-			<p></p>
-			<button data-toggle="modal" data-target="#addModal" class="btn btn-success td">Tambah Data</button>
-			<button class="btn  btn-default"> <a href="<?php echo base_url('index.php/order/export');?>">Export</a></button></center>
+				<button data-toggle="modal" data-target="#addModal" class="btn btn-success td">Tambah Data</button>
+				<button class="btn  btn-default"> <a href="<?php echo base_url('index.php/order/export');?>">Export</a></button></center>
 			
 		</div>
 		<div class="panel-body">
