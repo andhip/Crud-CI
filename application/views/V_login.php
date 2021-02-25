@@ -15,7 +15,7 @@
 		display: table;
 		width: 100%;
 		height: 97.5vh;
-		background: url("./assets/img/bg.png") fixed top center;
+		background: url("assets/img/bg.png") fixed top center;
 		background-size: cover;
 
 	}
