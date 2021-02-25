@@ -14,13 +14,13 @@
 	#hero {
 		display: table;
 		width: 100%;
-		height: 97vh;
+		height: 97.5vh;
 		background: url("./assets/img/bg.png") fixed top center;
 		background-size: cover;
 
 	}
 	#hero .hero-container {
-		background: rgba(12, 216, 155, 0.180);
+		background: rgba(16, 202, 146, 0.281);
 		display: table-cell;
 		margin: 0;
 		padding: 0;
@@ -30,7 +30,7 @@
 	.container{
 		display:inline-block;
         border-radius: 12%; 
-        padding: 72px 36px 72px;
+        padding: 45px 26px 72px;
         background-color: #081629;
         box-shadow:  3px 50px 60px #30373e96;
 		
@@ -39,8 +39,8 @@
 	
 	hr{
 		border: 2px solid #eaf3ff;
-		width:16%;
-		margin-bottom:2rem;
+		width:18%;
+		margin-bottom:2.5rem;
 	}
 	.submit {
         align-items:center !important;
